@@ -1,6 +1,6 @@
 ### Hi, I'm Andrew 👋
 
-Python developer specializing in **AI automation, workflow integrations, and applied backend tooling**. I design and build end-to-end solutions that solve real business problems — from automated speech analytics pipelines to high-performance desktop apps.
+Python developer specializing in **AI automation, workflow integrations, and applied backend tooling**. I design and build end-to-end solutions that solve real business problems — from automated pipelines to high-performance desktop apps.
 
 ---
 
