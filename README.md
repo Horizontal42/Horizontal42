@@ -38,6 +38,16 @@ I design and build production-grade AI pipelines, resilient asynchronous backend
 
 ---
 
+### 4. Distributed On-Premise Infrastructure & Edge Ingress for AI Services
+*High-availability private cloud and hybrid networking foundation powering local ML inference, vector databases, and automated delivery pipelines.*
+
+- **Secure Ingress & CGNAT Bypass:** Established a zero-trust edge ingress connecting remote cloud VPS gateways to isolated on-premise KVM hypervisors via `Rathole` (Noise protocol TCP tunnels), `Nginx` (L4 SNI `ssl_preread`), and `Caddy` with automated wildcard TLS issuance via Cloudflare DNS-01 API.
+- **Hardware Isolation & Storage Security:** Segmented container workloads and vector storage across bare-metal Ubuntu nodes with full disk encryption (`crypto_LUKS` backed by TPM2 hardware attestation) and KVM virtualization.
+- **SmartDNS Latency Optimization for LLMs:** Designed a dual-tier DNS routing layer (`dnsdist` with 25k PacketCache + `dnsmasq`) to route upstream AI API queries (OpenAI, Anthropic, Gemini) with sub-8ms latency and automated cache warming while preserving local network routing.
+- **Self-Hosted CI/CD & Observability:** Implemented an autonomous on-premise development pipeline using `Forgejo` and `Woodpecker CI` for automated container builds, paired with real-time telemetry dashboards (`Beszel`) and healthcheck alert daemons (`Gatus`) with automated differential backups (`rsync` + `zstd`).
+
+---
+
 ## 🛠️ Featured Open-Source & Engineering Showcase
 
 | Project | Domain | Architecture & Highlights |
@@ -57,6 +67,7 @@ I prioritize deterministic system behavior, strict type contracts, comprehensive
 - **Languages:** Python (asyncio, typing, ctypes), Rust, TypeScript, SQL
 - **AI & Machine Learning:** WhisperX, PyAnnote, LangChain, Qdrant, YOLOv8/v11, ByteTrack, PyTorch, CUDA, Ollama
 - **Backend & Distributed Systems:** FastAPI, Celery, Redis, PostgreSQL, SQLite (WAL), Docker, MinIO / S3
+- **Infrastructure & DevOps:** Linux (Ubuntu), KVM / QEMU, Docker Compose, Tailscale, Rathole, Nginx (L4 SNI), Caddy, Woodpecker CI, SmartDNS (dnsdist / dnsmasq), Zstandard
 - **Low-Level & Desktop:** Win32 API / ctypes, Tauri 2, WMI, Process Isolation, Memory Optimization
 - **Engineering Rigor:** pytest, Vitest, CI/CD, Circuit Breakers, Shadow Deployments, Zero-Admin Tooling
 
