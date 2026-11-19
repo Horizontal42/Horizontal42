@@ -40,13 +40,13 @@ I design and build production-grade AI pipelines, resilient asynchronous backend
 
 ## 🛠️ Featured Open-Source & Engineering Showcase
 
-| Project | Domain | Architecture & Highlights | Tests / Quality |
-| :--- | :--- | :--- | :--- |
-| **[aviapars](https://github.com/Horizontal42/aviapars)** | Travel Aggregator & Bot | Asynchronous flight/rail monitoring bot. Dual-tier anti-bot bypass (`curl_cffi` TLS impersonation + isolated Chromium solver in `patchright` subprocesses), residential SOCKS5 relay for ASN datacenter blocks, geometric hub route finder (Haversine detour formula), SQLite in WAL mode, and Circuit Breaker pattern. | **200+ tests**, strict mypy, recorded HTTP fixtures |
-| **[netsleuth](https://github.com/Horizontal42/netsleuth)** | Network Diagnostics CLI | Deep network inspection CLI. Non-admin ICMP echo & traceroute on Windows using native `Iphlpapi.dll` (`IcmpSendEcho2`) via `ctypes` with 64-bit struct memory alignment; dynamic OEM codepage detection (`GetOEMCP`); multi-factor weighted VPN leak scoring model. | **857 tests** (44 test suites), rich terminal UI |
-| **[summarum](https://github.com/Horizontal42/summarum)** | Desktop Calculator | Cross-platform notepad calculator. Custom recursive AST Pratt parser with natural language filtering; Rust-backed `DataDirGate` security boundary; exact financial math via `decimal.js` preventing IEEE 754 precision bugs. Built on Tauri 2, Rust, and TypeScript. | **259 tests** (Vitest), modular architecture |
-| **[freelance-leads-monitor](https://github.com/Horizontal42/freelance-leads-monitor)** | Lead Gen & AI Triage | Autonomous lead acquisition & intelligent AI triage engine. Two-stage LLM qualification pipeline (Mistral + Antigravity CLI), probabilistic PERT timeline analysis, multi-source ingestion across 5 freelance exchanges, SQLite in WAL mode, and real-time FastAPI analytics dashboard. | Async collectors, strict schemas, FastAPI |
-| **[LaptopTester](https://github.com/Horizontal42/LaptopTester)** & **[warehouse-master](https://github.com/Horizontal42/warehouse-master)** | Hardware QA & WMS | Industrial hardware diagnostics and warehouse automation. Automated system spec extraction (WMI, smartctl, battery wear, GPU/CPU thermals) paired with interactive QA checklists, two-way Google Sheets API sync, and on-demand 58x40mm thermal barcode label generation via ReportLab. | Deployed to production warehouse floor |
+| Project | Domain | Architecture & Highlights |
+| :--- | :--- | :--- |
+| **[aviapars](https://github.com/Horizontal42/aviapars)** | Travel Aggregator & Bot | Asynchronous flight/rail monitoring bot. Dual-tier anti-bot bypass (`curl_cffi` TLS impersonation + isolated Chromium solver in `patchright` subprocesses), residential SOCKS5 relay for ASN datacenter blocks, geometric hub route finder (Haversine detour formula), SQLite in WAL mode, and Circuit Breaker pattern. |
+| **[netsleuth](https://github.com/Horizontal42/netsleuth)** | Network Diagnostics CLI | Deep network inspection CLI. Non-admin ICMP echo & traceroute on Windows using native `Iphlpapi.dll` (`IcmpSendEcho2`) via `ctypes` with 64-bit struct memory alignment; dynamic OEM codepage detection (`GetOEMCP`); multi-factor weighted VPN leak scoring model. |
+| **[summarum](https://github.com/Horizontal42/summarum)** | Desktop Calculator | Cross-platform notepad calculator. Custom recursive AST Pratt parser with natural language filtering; Rust-backed `DataDirGate` security boundary; exact financial math via `decimal.js` preventing IEEE 754 precision bugs. Built on Tauri 2, Rust, and TypeScript. |
+| **[freelance-leads-monitor](https://github.com/Horizontal42/freelance-leads-monitor)** | Lead Gen & AI Triage | Autonomous lead acquisition & intelligent AI triage engine. Two-stage LLM qualification pipeline (Mistral + Antigravity CLI), probabilistic PERT timeline analysis, multi-source ingestion across 5 freelance exchanges, SQLite in WAL mode, and real-time FastAPI analytics dashboard. |
+| **[LaptopTester](https://github.com/Horizontal42/LaptopTester)** & **[warehouse-master](https://github.com/Horizontal42/warehouse-master)** | Hardware QA & WMS | Industrial hardware diagnostics and warehouse automation. Automated system spec extraction (WMI, smartctl, battery wear, GPU/CPU thermals) paired with interactive QA checklists, two-way Google Sheets API sync, and on-demand 58x40mm thermal barcode label generation via ReportLab. |
 
 ---
 
@@ -65,6 +65,5 @@ I prioritize deterministic system behavior, strict type contracts, comprehensive
 ## 📫 Get in Touch
 
 - **Telegram:** [@horizontal42](https://t.me/horizontal42)
-- **Email:** [piminoffandrew@gmail.com](mailto:piminoffandrew@gmail.com)
-- **GitHub:** [Horizontal42](https://github.com/Horizontal42)
+- **Email:** [pimenoffandrew@gmail.com](mailto:pimenoffandrew@gmail.com)
 - **Location:** Saint Petersburg, Russia 📍
